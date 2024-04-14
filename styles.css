@@ -5,9 +5,9 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center; /* Center everything */
   line-height: 1.6;
-  color: #333;
+  
   background-color: #f4f4f4;
-  background-image: url('/images/Background.png');
+  background-image: url('Background.PNG');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh; /* Add this line */
@@ -34,6 +34,7 @@ body {
   color: #fff;
   display: flex; /* Add this */
   justify-content: center; /* Add this */
+  border-radius: 5px;
 }
 
 .nav a {
@@ -68,27 +69,13 @@ body {
   text-align: center;
   padding: 10px 0;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .nav a {
-  display: block;
-  color: #f2f2f2;
-  padding: 5px 10px; /* Adjust this to your liking */
-  text-decoration: none;
-}
 
-  .header h1 {
-    font-size: 24px; /* Smaller font size for mobile */
-  }
 
-  .content, .footer {
-    padding: 10px; /* Less padding on mobile */
-  }
-}
 
 .wrapper {
     width: 100%;
@@ -103,12 +90,14 @@ body {
     height: 600px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: center;
+	
 }
 
 
 .card {
-    width: 300px;
+    aspect-ratio: 1 / 1.6;
+	width: 300px;
     border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
@@ -116,6 +105,7 @@ body {
     border-radius: 2rem;
     margin: 0 10px;
     display: flex;
+	
 	
     align-items: flex-end;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
@@ -132,11 +122,12 @@ body {
     background: #333;
     color: white;
     border-radius: 50%;
-    width: 85px;
-    display: flex;
+    width: 50px;
+    display: start;
     justify-content: center;
     align-items: center;
     margin: 15px;
+	background-color: transparent;
 }
 
 .card > .row > .description {
@@ -150,10 +141,10 @@ body {
     transform: translateY(30px);
     transition-delay: .3s;
     transition: all .3s ease;
-	border-radius: 50px;
+	border-radius: 70px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 	background: rgba(215, 204, 200, .1);
-	
+	padding-left: 5px;
 }
 
 .description p {
@@ -171,7 +162,7 @@ body {
 }
 
 .description h2 {
-    
+    note:maybe shade this bitch later
 }
 
 
@@ -189,14 +180,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('.Waxing.png');
+    background-image: url('./Waxing.PNG');
 }
 .card[for="c2"] {
-    background-image: url('.Haircut.png');
+    background-image: url('./Haircut.PNG');
 }
 .card[for="c3"] {
-    background-image: url('.Eyelashes.png');
+    background-image: url('./Eyelashes.PNG');
 }
 .card[for="c4"] {
-    background-image: url('.Facials.png');
+    background-image: url('./Facials.PNG');
 }
