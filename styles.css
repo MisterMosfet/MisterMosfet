@@ -189,14 +189,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('.Waxing.PNG');
+    background-image: url('.Waxing.png');
 }
 .card[for="c2"] {
-    background-image: url('.Haircut.PNG');
+    background-image: url('.Haircut.png');
 }
 .card[for="c3"] {
-    background-image: url('.Eyelashes.PNG');
+    background-image: url('.Eyelashes.png');
 }
 .card[for="c4"] {
-    background-image: url('.Facials.PNG');
+    background-image: url('.Facials.png');
 }
