@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
   
   background-color: #f4f4f4;
-  background-image: url('../images/Background.PNG');
+  background-image: url('../images/Background.png');
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,13 +187,13 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('../images/Waxing.PNG');
+    background-image: url('../images/Waxing.png');
 }
 .card[for="c2"] {
-    background-image: url('../images/Haircut.PNG');
+    background-image: url('../images/Haircut.png');
 }
 .card[for="c3"] {
-    background-image: url('../images/Eyelashes.PNG');
+    background-image: url('../images/Eyelashes.png');
 }
 .card[for="c4"] {
     background-image: url('./Facials.PNG');
