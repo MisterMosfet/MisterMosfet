@@ -181,13 +181,13 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('./Waxing.PNG');
+    background-image: url('../images/Waxing.PNG');
 }
 .card[for="c2"] {
-    background-image: url('./Haircut.PNG');
+    background-image: url('../images/Haircut.PNG');
 }
 .card[for="c3"] {
-    background-image: url('./Eyelashes.PNG');
+    background-image: url('../images/Eyelashes.PNG');
 }
 .card[for="c4"] {
     background-image: url('./Facials.PNG');
