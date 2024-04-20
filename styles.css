@@ -246,8 +246,8 @@ input:checked + label .description {
     background-image: url('./images/Haircut.png');
 }
 .card[for="c3"] {
-    background-image: url('images/Eyelashes.png');
+    background-image: url('./images/Eyelashes.png');
 }
 .card[for="c4"] {
-    background-image: url('./Facials.png');
+    background-image: url('./images/Facials.png');
 }
