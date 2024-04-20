@@ -91,7 +91,7 @@ body {
     padding: 10px; /* Less padding on mobile */
   }
   .card {
-    width: 100px; /* Make the card skinnier when not selected */
+    width: 20px; /* Make the card skinnier when not selected */
     height: auto; /* Adjust height automatically */
     margin: 10px 0; /* Add some margin on top and bottom for spacing */
     transition: all 0.3s ease; /* Smooth transition for size changes */
