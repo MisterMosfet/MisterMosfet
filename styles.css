@@ -73,7 +73,8 @@ body {
   border-radius: 5px;
 }
 
-/* Responsive design */
+
+
 @media (max-width: 768px) {
   .nav a {
   display: block;
@@ -88,31 +89,24 @@ body {
 
   .content, .footer {
     padding: 10px; /* Less padding on mobile */
-	
-	
-	
-	
-	
-	
   }
   .card {
-    width: 100%; /* Make the card wider on smaller screens */
+    width: 100px; /* Make the card skinnier when not selected */
+    height: auto; /* Adjust height automatically */
+    margin: 10px 0; /* Add some margin on top and bottom for spacing */
+    transition: all 0.3s ease; /* Smooth transition for size changes */
+  }
+  .card.selected {
+    width: 100%; /* Full width when selected */
+    max-width: 768px; /* Optional: limit max width */
   }
   .card img {
     height: 200px; /* Increase the height of the image for better visibility */
+    object-fit: cover; /* Cover the area of the card without stretching the image */
   }
   .card > .row > .icon {
-    background: #333;
-    color: white;
-    border-radius: 50%;
-    width: 85px;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
-	
+    display: none; /* Hide icons on smaller screens for simplicity */
   }
-  
   
 .card > .row > .description {
     display: flex;
@@ -133,7 +127,6 @@ body {
   }
 
 }
-
 
 
 
